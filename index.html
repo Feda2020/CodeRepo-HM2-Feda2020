@@ -1,27 +1,106 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<title>Feda</title>
+<!--Included the meta tags-->
+
+<meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap CDN-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <!--Bootstrap font awesome-->
+<link rel="Stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Assest/Style.css">
+<title>Feda Zidan</title>
 </head>
 <body>
-
-<h1>Feda Zidan</h1>
-<!--This is the links for the contact and portfolio pages-->
+    <!--This is the links for the contact and portfolio pages-->
 <!--Links will open in new tabs-->
-<button><a href="contact.html" target="open in new tab">Contact</a></button>
-<button></target></targe><a href="portfolio.html" target="open in new tab">Portfolio</a></button>
+<!--top Navbar-->
+<!--copied link from bootstrap and removed some elements I don't need like the search and dropdown menue-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/index.html">About</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/portfolio.html">portfolio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">contact</a>
+            </li>
+           
+          </ul>
+        </div>
+      </nav>
+
+<!--end of top nave-->
+
 <br>
-<Img src="./Assest/Images/Feda.jpg" height="200" width="200" alt="Feda Zidan">
+<!--The picture and the paragraph container-->
+<div class="container">
+    <div class="row">
+        <div class="page-header"> 
+            <h1>Feda Zidan</h1>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <img src="./Assest/Images/Feda.jpg" alt="Feda Zidan" class="img-fluid">
+          </div>
+          <div class="col-md">
+            <p>
+                I started out as a self-taught artist and then attended Mhanna El Durra Fine Art training center 
+                in Amman – Jordan from 2005 - 2007. Then I moved to San Antonio in 2010 where I participated in 
+                many art exhibits around this amazing city. I am inspired by the stories of life around us which 
+                I try to convey as a visual artistic expression. In my art, I like to focus on eyes because they 
+                are the place where our deepest emotions hide and if you look deep enough you can see people’s 
+                soul. I’m also fascinated with the human body; I’m a detailed portrait artist and like to use 
+                pencils, colored pencils, markers and ink to create intricate details. When I connect with the 
+                 stories I draw is when I do be and this is what gives my art work a unique meaningful feel to it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<br>
 
-<h2>About Me</h2>
-<p>I started out as a self-taught artist and then attended Mhanna El Durra Fine Art training center 
-    in Amman – Jordan from 2005 - 2007. Then I moved to San Antonio in 2010 where I participated in 
-    many art exhibits around this amazing city. I am inspired by the stories of life around us which 
-    I try to convey as a visual artistic expression. In my art, I like to focus on eyes because they 
-    are the place where our deepest emotions hide and if you look deep enough you can see people’s 
-    soul. I’m also fascinated with the human body; I’m a detailed portrait artist and like to use 
-    pencils, colored pencils, markers and ink to create intricate details. When I connect with the 
-    stories I draw is when I do be and this is what gives my art work a unique meaningful feel to it.</p>
+<!--the footer-->
 
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!--working on sticky footer-->
+    <footer>
+        <div class="footer">
+            <nav class="navbar sticky-bottom navbar-light bg-light">
+                <ul class="navbar-nav lint-inline">
+                 <li class="navbar-brand">Connect with me</li>
+                   <li class="nav-item lint-inline-item">
+                     <a class="nav-link" href="https://www.linkedin.com/in/feda-zidan-72923a2b">Linkedind <span class="sr-only">(current)</span></a>
+                  </li>
+                     <li class="nav-item lint-inline-item">
+                     <a class="nav-link" href="https://www.instagram.com/fedoo311/">Instegram <span class="sr-only">(current)</a>
+                     </li>
+                        <li class="nav-item lint-inline-item">
+                     <a class="nav-link" href="https://www.facebook.com/fedoo311">Facebook <span class="sr-only">(current)</a>
+                   </li>
+                </ul>
+             </nav>
+        </div>
+        
+    </footer>
+    
+        
 </body>
 </html>
